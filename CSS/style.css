@@ -57,33 +57,27 @@ body{
 	background: linear-gradient(to left,  #696969, #000000);
 	width: 100%;
 	padding-top: 15%;
-	padding-right: 20%;
-	padding-left: 10%;
+	/*padding-right: 20%;
+	padding-left: 10%;*/
+	text-align: center;
 }
 
 
 .block1 img{
 	border-radius: 50%;
-	height: 70%;
-	float: right;
+	height: 50%;
+	border: 5px solid black;
 }
 
-.block1 .intro{
-	float: left;
-	width: 70%;
-	height: 100%;
-	padding-top: 4%;
-}
-
-.block1 .intro p{
-  	float: left;
+.block1 p{
+	margin-top: 2%;
   	color: white;
   	font-size: 28px;
   	font-weight: bold;
 }
 
 .block2{
-	height: 70%;
+	height: 80%;
 	background-color: gray;
 	width: 100%;
 }
@@ -93,7 +87,6 @@ body{
 	height: 20%;
 	padding-top: 3%;
 	text-align: center;
-	border: 2px solid red;
 }
 
 .block2 label{
@@ -113,16 +106,76 @@ body{
 
 .block2 .left{
 	width: 55%;
-	height: 70%;
-	border: 2px solid black;
+	height: 80%;
 	float: left;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+
+.block2 .left p{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.block2 .left a{
+	margin-left: 30%;
+	width: 40%;
+	height: 10%;
+	font-size: 18px;
+	font-family: Arial Black;
+	background: -webkit-linear-gradient(left, #000000, #2F4F4F); 
+	border-radius: 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.block2 .left a:hover{
+	font-size: 22px;
 }
 
 .block2 .right{
 	float: right;
-	height: 70%;
+	height: 80%;
 	width: 45%;
-	border: 2px solid black;
+	float: right;
+	padding-top: 2%;
+}
+
+.block2 .right p{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.block2 .right ul{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 2%;
+}
+
+.block2 .right a{
+	margin-left: 10%;
+	font-size: 40px;
+}
+
+.block2 .right a i{
+	font-size: 40px;
+	color: lightpink;
+	text-decoration: none;
+	width: 5%;
+	transition all: 0.2s; 
+}
+
+.block2 .right a i:hover{
+	font-size: 45px;
+	color: palevioletred;
 }
 
 .block3{
@@ -190,6 +243,10 @@ body{
 	padding-right: 2%;
 	padding-left: 2%;
 	margin-left: 10%;
+}
+
+.block3 .project-left a:hover{
+	font-size: 30px;
 }
 
 .block4{
@@ -310,6 +367,10 @@ body{
 	border-radius: 20px;
 }
 
+.block5 .cod a:hover{
+	font-size: 30px;
+}
+
 .block5 .web{
 	width: 30%;
 	float: right;
@@ -345,6 +406,10 @@ body{
 	border-radius: 20px;
 }
 
+.block5 .web a:hover{
+	font-size: 30px;
+}
+
 .block5 .ml{
 	width: 35%;
 	float: right;
@@ -375,6 +440,10 @@ body{
 	padding-left: 4%;
 	font-size: 25px;
 	border-radius: 20px;
+}
+
+.block5 .ml a:hover{
+	font-size: 30px;
 }
 
 .block6{
@@ -422,21 +491,34 @@ body{
 .block6 .collab{
 	height: 65%;
 	width: 100%;
-	border: 2px solid blue;
 	text-align: center;
 }
 
 .block6 .collab h1{
 	font-family: Arial Black;
+	font-size: 30px;
+	color: silver;
 	font-weight: bold;
-	color: darkslategray;    
+	text-align: center;    
+}
+.block6 .collab form .textbox{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	margin-top: 3%;
+}
+.block6 .collab form .msg{
+	font-size: 20px;
+	width: 35%;
+	height: 100%;
 }
 
-.block6 .collab form .msg{
+.block6 .collab form .user-Name{
 	margin-top: 3%;
-	margin-right: 25%;
-	width: 35%;
-	height: 30%;
+}
+
+.block6 .collab form .user-Email{
+	margin-top: 2%;
 }
 
 .block6 .collab button{
@@ -449,5 +531,7 @@ body{
 	padding-left: 3%;
 	font-size: 25px;
 	border-radius: 20px;
-	margin-top: 10%;
+	margin-top: -2%;
+	float: right;
+	margin-right: 22%;
 }
